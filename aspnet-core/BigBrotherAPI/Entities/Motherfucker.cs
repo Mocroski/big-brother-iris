@@ -9,5 +9,6 @@ namespace BigBrotherAPI.Entities
         public bool IsEliminated { get; set; }
         public bool HasVoted { get; set; }
 
+      
     }
 }

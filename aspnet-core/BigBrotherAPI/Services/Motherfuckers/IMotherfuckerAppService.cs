@@ -7,5 +7,6 @@ namespace BigBrotherAPI.Services.Motherfuckers
     {
         Task<Motherfucker> CreateAsync(MotherfuckerInputDto inputDto);
         Task<Motherfucker> GetAsync(MotherfuckerOutputDto outputDto);
+        Task DeleteAsync(Guid id);
     }
 }
