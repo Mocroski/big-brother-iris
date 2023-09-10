@@ -2,7 +2,7 @@
 
 namespace BigBrotherAPI.Entities
 {
-    public class Poll : Entity<Guid>
+    public class PollEntity : Entity<Guid>
     {
         public string Name { get; set; }
         public string Message { get; set; }

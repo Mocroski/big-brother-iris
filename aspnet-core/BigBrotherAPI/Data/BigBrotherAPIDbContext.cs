@@ -39,7 +39,7 @@ public class BigBrotherAPIDbContext : AbpDbContext<BigBrotherAPIDbContext>
             b.Property(x => x.Name).IsRequired().HasMaxLength(128);
         });
 
-        builder.Entity<Poll>(b =>
+        builder.Entity<PollEntity>(b =>
         {
             b.ConfigureAuditedAggregateRoot();
         });

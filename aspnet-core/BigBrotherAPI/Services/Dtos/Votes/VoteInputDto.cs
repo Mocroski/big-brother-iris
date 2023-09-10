@@ -1,9 +1,10 @@
-﻿namespace BigBrotherAPI.Services.Dtos.Votes
+﻿using BigBrotherAPI.Entities;
+
+namespace BigBrotherAPI.Services.Dtos.Votes
 {
     public class VoteInputDto
     {
-        public Guid PollId { get; set; }
-        public Guid MotherfuckerId { get; set; }
+       public Motherfucker MotherfuckerVoted { get; set; }
         public string Reason { get; set; }
     }
 }
